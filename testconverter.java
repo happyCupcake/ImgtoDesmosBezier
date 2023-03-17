@@ -16,9 +16,9 @@ public class testconverter {
             double yinit = 0;
 
             int i=0;
-            while(i<2546){
+            while(i<3000){
                 
-
+  
                 String st = in.readLine();
                 //String st = str.replace("\t", "");
 
