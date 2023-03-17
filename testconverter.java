@@ -7,8 +7,12 @@ public class testconverter {
     public static void main(String args[]) throws IOException {
         BufferedReader in = null;
         BufferedWriter out = null;
+
+        //BEZIER CURVE FORMULA IN LATEX
+        //B\left(n,c_{1},c_{2},c_{3},c_{4}\right)=\left(1-n\right)^{3}c_{1}+3n\left(1-n\right)^{2}c_{2}+3n^{2}\left(1-n\right)c_{3}+n^{3}c_{4}\ 
+        //D\left(t,v_{1},v_{2},v_{3},v_{4}\right)=\left(1-t\right)^{3}v_{1}+3t\left(1-t\right)^{2}v_{2}+3t^{2}\left(1-t\right)v_{3}+t^{3}v_{4}
+
         try {
-            //in = new BufferedReader (new InputStreamReader(System.in));
             in = new BufferedReader (new FileReader("svgimgdata.in"));
             out = new BufferedWriter(new FileWriter("bezierequations.out"));
 
