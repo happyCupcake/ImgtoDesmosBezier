@@ -20,11 +20,11 @@ public class testconverter {
             double yinit = 0;
 
             int i=0;
-            while(i<3000){
+            while(i<710){
                 
   
-                String st = in.readLine();
-                //String st = str.replace("\t", "");
+                String str = in.readLine();
+                String st = str.replace("\t", "");
 
                 //System.out.println(st);
                 if(st.length()==0 || st == null){
